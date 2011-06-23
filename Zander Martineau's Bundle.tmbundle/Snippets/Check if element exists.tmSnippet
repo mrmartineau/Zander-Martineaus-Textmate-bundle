@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>if ($('#someDiv').length) {//hooray!!! it exists...} </string>
+	<key>name</key>
+	<string>Check if element exists</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>uuid</key>
+	<string>8C4ABE69-FFEE-4668-A331-E1889913CC09</string>
+</dict>
+</plist>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>	(function($) {
+	$.fn.stripHtml = function() {
+		var regexp = /&lt;("[^"]*"|'[^']*'|[^'"&gt;])*&gt;/gi;
+		this.each(function() {
+			$(this).html(
+				$(this).html().replace(regexp,”")
+			);
+		});
+		return $(this);
+	}
+})(jQuery);
+
+	//usage:
+	$('p').stripHtml();</string>
+	<key>name</key>
+	<string>Strip HTML From Your Element</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>uuid</key>
+	<string>D9BFB4C5-9B53-4493-89B0-52D8FF03D3E0</string>
+</dict>
+</plist>

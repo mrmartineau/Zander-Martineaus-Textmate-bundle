@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>	$.expr[':'].mycustomselector = function(element, index, meta, stack){
+	// element- is a DOM element
+	// index - the current loop index in stack
+	// meta - meta data about your selector	
+	// stack - stack of all elements to loop
+  
+	// Return true to include current element
+	// Return false to explude current element
+};
+  
+// Custom Selector usage:  
+$('.someClasses:test').doSomething();</string>
+	<key>name</key>
+	<string>Define a Custom Selector</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>uuid</key>
+	<string>699071CD-5DAE-4DB8-BE7A-4EA67F574383</string>
+</dict>
+</plist>

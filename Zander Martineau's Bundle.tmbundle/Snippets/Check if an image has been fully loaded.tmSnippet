@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>$('#theImage').attr('src', 'image.jpg').load(function() {
+	alert('This Image Has Been Loaded');
+});</string>
+	<key>name</key>
+	<string>Check if an image has been fully loaded</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>uuid</key>
+	<string>811CE30E-0314-460C-9E7F-603AF406BD85</string>
+</dict>
+</plist>

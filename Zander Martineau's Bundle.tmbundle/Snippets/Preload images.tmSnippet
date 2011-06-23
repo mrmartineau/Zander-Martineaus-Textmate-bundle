@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>jQuery.preloadImages = function() { for(var i = 0; i').attr('src', arguments[i]); } };
+
+// Usage $.preloadImages('image1.gif', '/path/to/image2.png', 'some/image3.jpg');</string>
+	<key>name</key>
+	<string>Preload images</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>uuid</key>
+	<string>079A79E4-431F-4418-B5A3-9AFC03A300C0</string>
+</dict>
+</plist>

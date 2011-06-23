@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>jQuery.fn.center = function () {
+	this.css('position','absolute');
+	this.css('top', ( $(window).height() - this.height() ) / +$(window).scrollTop() + 'px');
+	this.css('left', ( $(window).width() - this.width() ) / 2+$(window).scrollLeft() + 'px');return this;}
+
+$(${1:#center_this}).center(); </string>
+	<key>name</key>
+	<string>Center an element on screen</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>uuid</key>
+	<string>CFC8B697-3931-411B-BF75-FDC0807ED1CD</string>
+</dict>
+</plist>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>//This snippet will show you how to keep a default value  
+//in a text input field for when a user hasn't entered in  
+//a value to replace it	 
+  
+swap_val = [];
+$(".swap").each(function(i){
+	swap_val[i] = $(this).val();
+	$(this).focusin(function(){
+		if ($(this).val() == swap_val[i]) {
+			$(this).val("");
+		}
+	}).focusout(function(){
+		if ($.trim($(this).val()) == "") {
+			$(this).val(swap_val[i]);
+		}
+	});
+});
+&lt;input type="text" value="Enter Username here.." class="swap"&gt;</string>
+	<key>name</key>
+	<string>Show or Erase a Default Value In An Input Field</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>uuid</key>
+	<string>5F9D0518-7ED2-487F-892F-42C09FAD049D</string>
+</dict>
+</plist>

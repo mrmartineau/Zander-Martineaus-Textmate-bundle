@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>$("#someelement").live('click', function(e) {
+	if( (!$.browser.msie &amp;&amp; e.button == 0) || ($.browser.msie &amp;&amp; e.button == 1) ) {
+		alert("Left Mouse Button Clicked");
+	}  
+	else if(e.button == 2)
+		alert("Right Mouse Button Clicked");
+});</string>
+	<key>name</key>
+	<string>Detect Both Right &amp; Left Mouse-clicks with jQuery</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>uuid</key>
+	<string>5902EB6E-7D25-4727-9456-0ECDA89C3A4A</string>
+</dict>
+</plist>

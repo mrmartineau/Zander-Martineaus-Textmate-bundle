@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>$("p.value:contains('thetextvalue')").hide();  </string>
+	<key>name</key>
+	<string>Hide an element that contains text of a certain value</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>uuid</key>
+	<string>A34E31E9-03FA-465A-9C31-61D5E3B04948</string>
+</dict>
+</plist>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>jQuery.fn.autoscroll = function(selector) {
+  $('html,body').animate(
+    {scrollTop: $(selector).offset().top},
+    500
+  );
+}
+
+//Then to scroll to the class/area you wish to get to like this:
+$('${1:.scroll_link}').autoscroll();</string>
+	<key>name</key>
+	<string>Autoscroll</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>uuid</key>
+	<string>0CC9EE5E-80DB-4BBE-AE0F-A8C9CA29B89D</string>
+</dict>
+</plist>

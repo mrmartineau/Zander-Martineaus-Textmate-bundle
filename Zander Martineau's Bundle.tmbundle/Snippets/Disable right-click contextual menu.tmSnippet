@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>$(document).bind('contextmenu',function(e){ return false; }); </string>
+	<key>name</key>
+	<string>Disable right-click contextual menu</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>uuid</key>
+	<string>36FD2D3F-F774-4E0D-8B4F-0899D2168620</string>
+</dict>
+</plist>

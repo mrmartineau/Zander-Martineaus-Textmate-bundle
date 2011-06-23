@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>//For when an element loses it's focus use .blur()
+$('#target').blur(function() {
+	alert('Handler for .blur() called.');
+});
+//For when an element gains focus use .focus()
+$('#target').focus(function() {
+	alert('Handler for .focus() called.');
+});</string>
+	<key>name</key>
+	<string>Focus &amp; Blur functions</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>uuid</key>
+	<string>AFD28F5A-D8E9-44AD-8EDC-8CE012AE9F6F</string>
+</dict>
+</plist>

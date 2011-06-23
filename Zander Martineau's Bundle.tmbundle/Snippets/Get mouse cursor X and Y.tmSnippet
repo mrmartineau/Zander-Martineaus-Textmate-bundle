@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>$(document).mousemove(function(e){
+	$(document).ready(function() {
+		$().mousemove(function(e){
+		$(’#XY’).html(”X Axis : ” + e.pageX + ” | Y Axis ” + e.pageY);
+	});
+});</string>
+	<key>name</key>
+	<string>Get mouse cursor X and Y</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>uuid</key>
+	<string>AD320984-04CD-4690-B466-DC8FE51EEBAB</string>
+</dict>
+</plist>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>var cloned = $('#somediv').clone();</string>
+	<key>name</key>
+	<string>Clone an element</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>uuid</key>
+	<string>0689111A-50CF-495A-B761-E8AC6A60843D</string>
+</dict>
+</plist>

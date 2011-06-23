@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>$.fn.replaceUrl = function() {
+		var regexp = /((ftp|http|https):\/\/(\w+:{0,1}\w*@)?(\S+)(:[0-9]+)?(\/|\/([\w#!:.?+=&amp;%@!\-\/]))?)/gi;
+		this.each(function() {
+			$(this).html(
+				$(this).html().replace(regexp,'&lt;a href="$1"&gt;$1&lt;/a&gt;‘)
+			);
+		});
+		return $(this);
+	}
+
+	//usage
+
+	$('p').replaceUrl();</string>
+	<key>name</key>
+	<string>Replace any URL on your page with a clickable link</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>uuid</key>
+	<string>B1A44357-827C-4C36-A69B-CE9A35B7F5BA</string>
+</dict>
+</plist>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>Detect Safari (if( $.browser.safari)),  
+Detect IE6 and over (if ($.browser.msie &amp;&amp; $.browser.version &gt;= 6 )),  
+Detect IE6 and below (if ($.browser.msie &amp;&amp; $.browser.version &lt;= 6 )),  
+Detect FireFox 2 and above (if ($.browser.mozilla &amp;&amp; $.browser.version &gt;= '1.8' ))</string>
+	<key>name</key>
+	<string>Detect any browser</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>uuid</key>
+	<string>8EF7D595-2A3A-466B-9B8F-F0EA09359B76</string>
+</dict>
+</plist>
